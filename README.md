@@ -1,6 +1,4 @@
-# CIPS Frontend
-
-CIPS Frontend is a base project to focus universal pattern using ReactJS as the client-side programming language
+This repository build from CRA and a little bit custom for being my own base project
 
 ## Requirement
 * `React` version 15 or greater
