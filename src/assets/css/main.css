@@ -12513,6 +12513,8 @@ h4 {
 .movie-card-group .movie-play {
   min-height: 90px;
   background: #ff7043; }
+  .movie-card-group .movie-play:nth-child(n+1) {
+    background: #7e57c2; }
 
 .movie-card-group .movie-relate--head {
   background: #444;

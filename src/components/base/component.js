@@ -57,16 +57,6 @@ export class Base extends Component {
   componentDidMount() {
     this.getProfile();
     this.getListMovie();
-
-    // const {url} = this.state.movie.results.url;
-
-    // let URI = `https://swapi.co/api/films/${url}`;
-    // fetch(URI, {
-    //   method: 'GET'
-    // })
-    //   .then((films) => {
-    //     this.setState(() => ({films}))
-    //   })
   }
 
   render() {

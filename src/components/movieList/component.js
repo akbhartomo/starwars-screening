@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 
 import play from '../../assets/images/ico-play.png';
 
-export const MovieList = ({ movie, films }) => {
+export const MovieList = ({ movie }) => {
   return (
-    <Link to="/" className="movie-card--small">
+    <Link to={`/films/${movie.id}`} className="movie-card--small">
       <ul className="movie-card">
         <li className="movie-card-item movie-play">
           <img src={play} alt="play" />
