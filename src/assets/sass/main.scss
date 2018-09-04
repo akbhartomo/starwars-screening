@@ -1,0 +1,23 @@
+@charset 'utf-8';
+
+/** Utilities or helper **/
+@import 'utilities/_mixins';
+@import 'utilities/_variables';
+
+/** Library from other repo or called "vendor" **/
+@import 'libs/_bootstrap';
+@import 'libs/_font-awesome';
+
+/** Base styles as a general styling **/
+@import 'base/_webfonts';
+@import 'base/_base';
+
+/** Component styles for every single components like input, button, labels, tabbing, navbar **/
+@import 'components/_card';
+
+/** Pages styles for particular style just in that page **/
+@import 'pages/_page';
+
+/** Themes styles for the color groups **/
+@import 'themes/_palette';
+@import 'themes/_colors';

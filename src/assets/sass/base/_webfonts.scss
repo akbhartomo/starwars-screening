@@ -1,0 +1,30 @@
+$regular-sfpro: 'SF-Pro';
+$regular-icomoon: 'icomoon';
+
+$primary-font: $regular-sfpro;
+$primary-icon: $regular-icomoon;
+
+@font-face {
+  font-weight: normal;
+	font-style: normal;
+	font-family: $primary-font;
+	src:url('../fonts/SFPro.eot');
+	src:url('../fonts/SFPro.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/SFPro.woff') format('woff'),
+		url('../fonts/SFPro.ttf') format('truetype'),
+		url('../fonts/SFPro.svg#SFPro') format('svg');
+}
+
+@font-face {
+  font-weight: normal;
+	font-style: normal;
+	font-family: $primary-font;
+	src:url('../fonts/icomoon/fonts/icomoon.eot');
+	src:url('../fonts/icomoon/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/icomoon/fonts/icomoon.woff') format('woff'),
+		url('../fonts/icomoon/fonts/icomoon.ttf') format('truetype'),
+		url('../fonts/icomoon/fonts/icomoon.svg#icomoon') format('svg');
+}
+
+
+

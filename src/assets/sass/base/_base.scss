@@ -1,0 +1,40 @@
+body {
+  font-family: $primary-font;
+  font-size: 120%;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin-top: 0;
+}
+
+.app-container {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  margin: 10px;
+
+  &-centered {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+  }
+
+  .app-image {
+    width: 240px;
+    margin-bottom: 24px;
+  }
+
+  .app-title {
+    font-size: 18px;
+    text-align: center;
+    margin: 16px;
+    line-height: 27px;
+    color: $color-grey-900;
+  }
+}
